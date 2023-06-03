@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saul Goodman School</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+        <nav id="nav-bar">
+            <div class="a-list">
+            <a href="./index.html" class="nav-a">Home</a>
+            <a href="./contact.html" class="nav-a">Contact</a>
+            <a href="./courses.html" class="nav-a">Courses</a>
+            <a href="./gallery.html" class="nav-a">Gallery</a>
+            <a href="./events.html" class="nav-a">Events</a>
+            <a href="./about.html" class="nav-a">About Us</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-infos">
+            <div  class="contact-info">
+                Address:
+                <hr>
+                <address>
+                    13 Murrawong Way,<br>
+                    Sydney,<br>
+                     5253,<br>
+                      Australia<br>
+                    </address>
+            </div>
+            <div class="contact-info">
+                email:
+                <hr>
+                info@soulgoodman.edu<br>
+                support@soulgoodman.edu
+            </div>
+            <div class="contact-info">
+                phone/fax:<hr>
+                0593 612 765<br>
+                0464 504 501
+
+            </div>
+            <div class="contact-info socials">
+                Socials:<hr>
+                <a href="#">Facebook</a><br>
+                <a href="#">Instagram</a><br>
+                <a href="#">Linkedin</a><br>
+            </div>
+            
+        </section>
+        <section class="contact-main">
+            <div class="form">
+                <form class="register-form" action="#" method="post" onsubmit="return checkForm()">
+                    <div class="form-container">
+                      <h3>Contact Us</h3>
+                      <hr>
+                      <label for="name"><b>Name:</b></label>
+                      <input type="text" placeholder="Enter your full name" name="name" id="name" required>
+    
+                      <label for="phone"><b>Phone:</b></label>
+                      <input type="number" placeholder="Enter your phone no" name="phone" id="phone" required>
+    
+                      <label for="email"><b>Email:</b></label>
+                      <input type="email" placeholder="Enter your Email" name="email" id="email" required>
+                        
+                      <label for="message"><b>Your Query:</b></label>
+                      <textarea type="text" placeholder="" name="message" id="message" rows="4" cols="80" required></textarea>
+                
+                      <div class="buttons" id="btns">
+                        <div class="button"><button type="submit" class="send">send</button></div>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-more">
+            <h1>Saul Goodman School</h1>
+            <address>
+                13 Murrawong Way,<br>
+                Sydney,<br>
+                 5253,<br>
+                  Australia<br>
+                </address>
+        </div>
+        <div class="footer-name">
+            Made by <b>Amrita Khatri</b>
+        </div>
+    </footer>
+	<script src="./main.js"></script>
+  </body>
+</html>
